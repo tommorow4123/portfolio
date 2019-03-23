@@ -1,0 +1,117 @@
+@media(min-width:670px){
+  h2{
+    font-size:28px;
+  }
+
+  .nav-open{
+    display:none;
+  }
+
+  .front-work_units{
+    padding-bottom:50px;
+  }
+
+  .front-concept h1{
+    text-align:center;
+  }
+
+  .picture{
+    margin:0 auto;
+    padding-top:30px;
+    padding-left:85px;
+  }
+
+  .name{
+    padding-top:30px;
+  }
+
+  .sns{
+    font-size:26px;
+  }
+
+  .p-body{
+    padding-left:73px;
+  }
+}
+
+@media(min-width:1000px){
+
+  h2{
+    font-size:26px;
+    text-align:center;
+  }
+
+  .fas fa-bars{
+    display:none;
+  }
+
+  #nav-content{
+    display:inline-block;
+    float:left;
+    text-align:left;
+    width:100%;
+    top:0;
+    left:0;
+  }
+
+  #nav-drawer{
+    display:none;
+  }
+  .st-header_logo{
+    font-size:28px;
+  }
+
+  #nav-content li{
+    display:block;
+  }
+  .cherry{
+    width:1600px;
+    height:500px;
+  }
+
+  .front-profile h2{
+    text-align:center;
+  }
+
+  .name{
+    font-size:21px;
+  }
+
+  .sns{
+    font-size:30px;
+  }
+
+  .picture{
+    padding-left:80px;
+  }
+
+  .front-concept P{
+    float:right;
+    padding-top:15px;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+  .web-site{
+    padding-bottom:30px;
+    padding-left:50px;
+  }
+  textarea{
+    margin:0 auto;
+    
+  }
+
+  .front-contact-form img{
+    width:400px;
+    height:220px;
+  }
+
+  .a-btn{
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    
+  }
+}
+
+
