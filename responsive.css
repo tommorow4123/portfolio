@@ -3,12 +3,22 @@
     font-size:28px;
   }
 
+  .st-header_logo h1{
+padding:-20% 0 0 3%;
+  }
   .nav-open{
     display:none;
   }
 
   .front-work_units{
-    padding-bottom:50px;
+    padding-bottom:80px;
+  }
+
+  .front-work_units img{
+    float:left;
+    width:50%;
+    margin:0 auto;
+    padding:3% 3%;
   }
 
   .front-concept h1{
@@ -18,7 +28,7 @@
   .picture{
     margin:0 auto;
     padding-top:30px;
-    padding-left:85px;
+    padding-left:80px;
   }
 
   .name{
@@ -30,11 +40,23 @@
   }
 
   .p-body{
-    padding-left:73px;
+    padding:2% 5%;
   }
+
+  .contact-form{
+    margin-top:80px;
+  }
+
+  .clear{
+    clear:both;
+ }
 }
 
 @media(min-width:1000px){
+  .cherry img{
+     height:700px;
+     width:1600px;
+  }
 
   h2{
     font-size:26px;
@@ -86,11 +108,20 @@
     padding-left:80px;
   }
 
+  .p-body{
+    margin:1%;
+  }
+  .front-work_units{
+    width:80%;
+  }
+
   .front-concept P{
-    float:right;
     padding-top:15px;
-    display:inline-block;
-    vertical-align:top;
+    
+  }
+
+  .front-concept_texts br{
+    display:none;
   }
 
   .web-site{
@@ -107,12 +138,14 @@
     height:220px;
   }
 
+  
+  
   .a-btn{
     text-align:center;
     margin:0 auto;
-    margin-top:30px;
-    
+    margin-top:30px; 
   }
-}
+      
+
 
 

@@ -9,24 +9,16 @@ header {
   margin:0 auto;
 }
 
-h1{
-  padding-top:25px;
-  padding-left:65px;
-  box-sizing:border-box;
-  position:relative;
-  margin:0 auto;
-  float:left;
-}
-
-
 h2{
   text-align:center;
   font-size:25px;
 }
 
-.st-header_logo{
+.st-header_logo h1{
   float:left;
-  font-size:23px;
+  font-size:20px;
+  padding:28px 0 0 70px;
+  margin:0 auto;
 }
 
 /*チェックボックス等は非表示に*/
@@ -104,22 +96,32 @@ h2{
 
 #nav-drawer{
   float:left;
+  position:absolute;
+  padding:28px 0 0 26px;
 }
+
 #nav-content li{
   list-style:none;
   background-color:#555;
   opacity:0.6;
 }
+
+.front-concept h1{
+text-align:center;
+}
+
+
+
+
 section h1{
   font-size:22px;
   text-align:center;
 }
 
-img{
+.cherry img{
   opacity:0.85;
-  width:100%;
-  height:100%;
-  object-fit:cover;
+  max-width:100%;
+  height:auto;
 }
 
 .front-concept{
@@ -149,7 +151,7 @@ section .front-profile{
 
 .picture{
   float:left;
-  padding-left:15px;
+  padding-left:5%;
   
 }
 .name{
@@ -183,6 +185,7 @@ section .front-profile{
 .p-body p{
   font-size:16px;
   opacity:0.9;
+  margin:0 auto;
 }
 
 
@@ -192,17 +195,16 @@ section .front-profile{
 
 .p-body{
   font-size:13px;
-  padding-top:20px;
+  margin:5%;
+  /*padding-top:20px;*/
   
-}
-
-.front-work{
-  padding-top:30px;
 }
 
 .front-work_units{
   text-align:center;
   padding-bottom:50px;
+  /*width:80%;*/
+  margin:0 auto;
 }
 
 .web-site{
