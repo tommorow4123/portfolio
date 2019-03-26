@@ -6,8 +6,9 @@
 
 header {
   background: #fff0f5;
-  height:180px;
+  height:200px;
   margin:0 auto;
+  max-width:100%;
 }
 
 h2{
@@ -15,32 +16,42 @@ h2{
   font-size:25px;
 }
 
-.st-header-logo{
-  float:left;
-  
-}
+
 
 .st-header_logo h1{
+  float:left;
   font-size:22px;
-  padding:28px 0 0 70px;
+  padding:20px 0 0 40px;
   margin:0 auto;
 }
 
-#nav-drawer{
-  float:left;
-  font-size:20px;
-  padding-left:15px;
-  margin: 0 auto;
-  
+a{
+  text-decoration:none;
 }
 
+#nav-drawer{
+  float:right;
+  font-size:22px;
+  margin: 0 auto;
+  margin:20px;
+}
+
+.clear{
+  clear:both;
+}
+
+
+#nav-content ul{
+  margin:0 auto;
+  
+}
 #nav-content li{
   margin:0 auto;
   list-style:none;
   font-size:14px;
   opacity:0.6;
  text-align:left;
- padding-bottom:5px;
+ padding-top:13px;
 }
 
 .front-concept h1{
@@ -123,9 +134,6 @@ section .front-profile{
 }
 
 
-.clear{
-  clear:both;
-}
 
 .p-body{
   font-size:13px;
@@ -151,6 +159,10 @@ section .front-profile{
   text-align:center;
   padding-top:10px;
   
+}
+
+.clear{
+  clear:both;
 }
 
 input,textarea{

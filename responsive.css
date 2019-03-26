@@ -12,13 +12,14 @@ padding:-20% 0 0 3%;
 
   .front-work_units{
     padding-bottom:80px;
+    margin:0 15px;
   }
 
   .front-work_units img{
     float:left;
     width:50%;
     margin:0 auto;
-    padding:3% 3%;
+    padding:10px;
   }
 
   .front-concept h1{
@@ -47,15 +48,16 @@ padding:-20% 0 0 3%;
     margin-top:80px;
   }
 
-  .clear{
-    clear:both;
- }
 }
 
 @media(min-width:1000px){
+header{
+  box-sizing:border-box;
+}
+
   .cherry img{
      height:700px;
-     width:1600px;
+    width:1440px;
   }
 
   h2{
@@ -67,24 +69,18 @@ padding:-20% 0 0 3%;
     display:none;
   }
 
-  #nav-content{
-    display:inline-block;
-    float:left;
-    text-align:left;
-    width:100%;
-    top:0;
-    left:0;
-  }
-
   #nav-drawer{
     display:none;
   }
+
   .st-header_logo{
     font-size:28px;
+    float:left;
   }
 
   #nav-content li{
-    display:block;
+    float:left;
+    
   }
 
   .cherry{
@@ -98,6 +94,7 @@ padding:-20% 0 0 3%;
 
   .name{
     font-size:21px;
+    padding-left:60px;
   }
 
   .sns{
@@ -105,14 +102,32 @@ padding:-20% 0 0 3%;
   }
 
   .picture{
-    padding-left:80px;
+    padding-left:200px;
   }
 
   .p-body{
-    margin:1%;
+    margin:10px 100px;
   }
+
+  .front-work{
+    margin-top:100px;
+  }
+
   .front-work_units{
-    width:80%;
+    text-align:center;
+    margin:0 auto;
+    padding-left:125px;
+  }
+
+  .front-work_units img{
+    width:30%;
+    padding:10px 15px;
+    margin:0 auto;
+  }
+
+  .front-concept{
+    margin-top:120px;
+    margin-bottom:150px;
   }
 
   .front-concept P{
@@ -124,9 +139,16 @@ padding:-20% 0 0 3%;
     display:none;
   }
 
-  .web-site{
-    padding-bottom:30px;
-    padding-left:50px;
+  .front-profile h2{
+    margin-bottom:60px;
+  }
+
+  .front-work{
+    margin-top:200px;
+  }
+
+  .contact-form{
+    margin-top:180px;
   }
   textarea{
     margin:0 auto;

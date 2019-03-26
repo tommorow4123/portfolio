@@ -1,0 +1,4 @@
+$(function){
+  $('#nav-content') li.click(function(){
+
+}
