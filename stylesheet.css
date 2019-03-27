@@ -6,17 +6,10 @@
 
 header {
   background: #fff0f5;
-  height:200px;
+  height:60px;
   margin:0 auto;
   max-width:100%;
 }
-
-h2{
-  text-align:center;
-  font-size:25px;
-}
-
-
 
 .st-header_logo h1{
   float:left;
@@ -25,43 +18,59 @@ h2{
   margin:0 auto;
 }
 
-a{
-  text-decoration:none;
-}
 
 #nav-drawer{
   float:right;
   font-size:22px;
-  margin: 0 auto;
-  margin:20px;
+  cursor:pointer;
+  padding:20px 20px 0 0;
+}
+
+#nav-drawer:hover{
+  opacity:0.8;
+}
+
+#nav-drawer:active{
+  opacity:0.5;
+}
+
+a{
+  text-decoration:none;
+}
+.clear{
+  clear:both;
+}
+
+ul{
+  margin:0 auto;
+  padding-bottom:10px;
+  display:none;
+}
+
+#nav-content{
+  background-color:#f9c1cf;
+  
+}
+
+li{
+  margin:0 auto;
+  list-style:none;
+  font-size:14px;
+  opacity:0.6;
+  text-align:left;
+  padding-top:13px;
+  display:block;
 }
 
 .clear{
   clear:both;
 }
 
-
-#nav-content ul{
-  margin:0 auto;
-  
-}
-#nav-content li{
-  margin:0 auto;
-  list-style:none;
-  font-size:14px;
-  opacity:0.6;
- text-align:left;
- padding-top:13px;
-}
-
-.front-concept h1{
-text-align:center;
-}
-
-section h1{
-  font-size:22px;
+h2{
   text-align:center;
+  font-size:25px;
 }
+
 
 .cherry img{
   opacity:0.85;
@@ -69,13 +78,15 @@ section h1{
   height:auto;
 }
 
+section h1{
+  font-size:22px;
+  text-align:center;
+}
+
 .front-concept{
   padding:50px 0 80px 0;
 }
 
-.clear{
-  clear:both;
-}
 
 .front-concept h1{
   padding-bottom:20px;
@@ -87,12 +98,6 @@ section h1{
   text-align:center;
   opacity:1;
 }
-
-section .front-profile{
-  padding:0 20px;
-  height:500px;
-}
-
 
 .picture{
   float:left;
@@ -138,14 +143,17 @@ section .front-profile{
 .p-body{
   font-size:13px;
   margin:5%;
-  /*padding-top:20px;*/
-  
 }
+
+.front-work{
+  padding-top:80px;
+}
+
+
 
 .front-work_units{
   text-align:center;
   padding-bottom:50px;
-  /*width:80%;*/
   margin:0 auto;
 }
 

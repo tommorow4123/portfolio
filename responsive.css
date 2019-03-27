@@ -1,13 +1,22 @@
 @media(min-width:670px){
+  header{
+    height:80px;
+  }
   h2{
     font-size:28px;
   }
-
-  .st-header_logo h1{
-padding:-20% 0 0 3%;
+  
+  .st-header_logo{
+    float:left;
   }
-  .nav-open{
+  
+  nav{
     display:none;
+  }
+
+  #nav-content li{
+    float:right;
+    padding:0 30px;
   }
 
   .front-work_units{
@@ -65,21 +74,18 @@ header{
     text-align:center;
   }
 
-  .fas fa-bars{
-    display:none;
-  }
-
-  #nav-drawer{
+  nav{
     display:none;
   }
 
   .st-header_logo{
-    font-size:28px;
+    font-size:30px;
     float:left;
   }
 
   #nav-content li{
-    float:left;
+    float:right;
+    font-size:16px;
     
   }
 

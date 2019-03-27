@@ -1,4 +1,4 @@
 $(function){
-  $('#nav-content') li.click(function(){
-
+  $('#nav-drawer') .click(function(){
+$('nav-content).open();
 }
