@@ -6,7 +6,7 @@
 
 header {
   background: #fff0f5;
-  height:60px;
+  height:180px;
   margin:0 auto;
   max-width:100%;
 }
@@ -44,12 +44,11 @@ a{
 ul{
   margin:0 auto;
   padding-bottom:10px;
-  display:none;
+  /*display:none;*/
 }
 
 #nav-content{
-  background-color:#f9c1cf;
-  
+  display:block;
 }
 
 li{

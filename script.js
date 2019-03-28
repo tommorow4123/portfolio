@@ -1,5 +1,5 @@
-$(function(){
+$(document).ready(function(){
         $('#nav-drawer') .click(function(){
-          $('ul').slideToggle(200);
+          $('#nav-content').slideToggle(200);
      });
 });

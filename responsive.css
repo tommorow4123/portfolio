@@ -10,13 +10,19 @@
     float:left;
   }
   
-  nav{
+  #nav-drawer{
     display:none;
   }
 
   #nav-content li{
     float:right;
     padding:0 30px;
+  }
+
+  ul{
+    display:block;
+    float:right;
+    background: #fff0f5;
   }
 
   .front-work_units{
