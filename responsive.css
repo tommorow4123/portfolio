@@ -71,7 +71,8 @@ header{
 }
 
   .cherry img{
-     height:700px;
+    height:700px;
+    margin:0 auto;
     width:1440px;
   }
 
