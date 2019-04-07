@@ -21,8 +21,14 @@
 
   ul{
     display:block;
-    float:right;
     background: #fff0f5;
+  }
+
+  li{
+    display:block;
+    float:right;
+    padding-right:50px;
+    
   }
 
   .front-work_units{

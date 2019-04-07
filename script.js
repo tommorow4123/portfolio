@@ -1,10 +1,12 @@
 $(function(){
-        $('#nav-drawer') .click(function(){
+     $('#button') .click(function(){
           //    alert("aaa");
           // $('#nav-content').addClass('hidden');
           //$('#nav-content').removeClass('hidden');
           
-          // $('#nav-content').slideToggle(200);
+        $('#list').slideToggle(200);
      });
-     // $(nav-drawer)
+     //$('#button').click(function(){
+      // $('#list').fadeToggle(200);
+     //});
 });

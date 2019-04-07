@@ -1,5 +1,5 @@
 *{
-  /*box-sizing:border-box; */
+  box-sizing:border-box; 
   color:#222; 
 }
 
@@ -7,18 +7,22 @@
   display: none !important;
 }*/
 
+header{
+  position:relative;
+}
+
 header h1{
   background: #fff0f5;
   font-size:23px;
-  margin:0 auto;
+  margin: 0 auto;
   padding:18px 23px;
+
 }
 
 button{
-  /*position:absolute;*/
+  position:absolute;
   /*font-size:22px;*/
   cursor:pointer;
-  padding:20px;
   float:right;
 }
 
@@ -33,10 +37,7 @@ button{
 a{
   text-decoration:none;
 }
-.clear{
-  clear:both;
-}
-
+　
 ul{
   margin:0 auto;
   margin-bottom:20px;
