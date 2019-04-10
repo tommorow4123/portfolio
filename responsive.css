@@ -1,34 +1,30 @@
 @media(min-width:670px){
   header{
-    height:80px;
+    height:65px;
+    width:100%;
   }
+
   h2{
     font-size:28px;
   }
   
-  .st-header_logo{
-    float:left;
-  }
-  
-  #nav-drawer{
+  button{
     display:none;
-  }
-
-  #nav-content li{
-    float:right;
-    padding:0 30px;
   }
 
   ul{
     display:block;
-    background: #fff0f5;
+    padding-left:400px;
+    padding-right:22px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:998;
   }
 
   li{
-    display:block;
-    float:right;
-    padding-right:50px;
-    
+    display:inline-block;
+    width:100px;
   }
 
   .front-work_units{
@@ -41,10 +37,6 @@
     width:50%;
     margin:0 auto;
     padding:10px;
-  }
-
-  .front-concept h1{
-    text-align:center;
   }
 
   .picture{
@@ -74,10 +66,33 @@
 @media(min-width:1000px){
 header{
   box-sizing:border-box;
+  width:1440px;
+  height:0;
+  position:relative;
+  
+}
+
+header h1{
+  position:absolute;
+  display:block;
+  top:80px;
+  left:50px;
+  font-size:80px;
+}
+button{
+  display:none;
+}
+
+nav{
+  display:block;
+}
+
+li{
+  display:block;
 }
 
   .cherry img{
-    height:700px;
+    height:730px;
     margin:0 auto;
     width:1440px;
   }
@@ -89,22 +104,6 @@ header{
 
   nav{
     display:none;
-  }
-
-  .st-header_logo{
-    font-size:30px;
-    float:left;
-  }
-
-  #nav-content li{
-    float:right;
-    font-size:16px;
-    
-  }
-
-  .cherry{
-    width:1600px;
-    height:700px;
   }
 
   .front-profile h2{

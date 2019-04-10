@@ -1,50 +1,58 @@
 *{
   box-sizing:border-box; 
-  color:#222; 
+  color:#555; 
+  font-family: 'Noto Sans Japanese';
 }
 
-/*.hidden{
-  display: none !important;
-}*/
-
 header{
-  position:relative;
+  position:fixed;
+  background: #fff0f5;
+  width:100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 header h1{
-  background: #fff0f5;
+  opacity:0.85;
+  color:#1A1A1A;
+  width:40%;
+  display: inline-block;
   font-size:23px;
-  margin: 0 auto;
   padding:18px 23px;
+  margin:0;
 
 }
 
 button{
-  position:absolute;
-  /*font-size:22px;*/
+  border:none; 
+  background: #fff0f5;
+  float:right;
+  font-size:22px;
   cursor:pointer;
   float:right;
+  padding:18px 30px;
+  
 }
 
-#nav-drawer:hover{
-  opacity:0.8;
+button:focus{
+outline:0;
 }
 
-#nav-drawer:active{
-  opacity:0.5;
+nav {
+  margin-top: 62px;
 }
 
 a{
-  text-decoration:none;
-}
-　
-ul{
-  margin:0 auto;
-  margin-bottom:20px;
+text-decoration:none;
 }
 
-#nav-content{
-  display:block;
+ul {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  background-color: #fff0f5;
+  display:none;
+  
 }
 
 li{
@@ -53,16 +61,21 @@ li{
   font-size:14px;
   opacity:0.6;
   text-align:left;
-  padding-top:13px;
+  padding:7px 0;
   display:block;
-  
+  border-bottom:1px solid #fac8e8;
 }
 
+li:last-child{
+  border:none;
+}
 .clear{
   clear:both;
 }
 
 h2{
+  opacity:0.9;
+  color:#1A1A1A;
   text-align:center;
   font-size:25px;
 }
@@ -71,6 +84,13 @@ h2{
 .cherry img{
   opacity:0.85;
   max-width:100%;
+  
+}
+
+.front-profile{
+  height: 500px;
+  width:670px;
+  margin-top:50px;
 }
 
 section h1{
@@ -78,21 +98,6 @@ section h1{
   text-align:center;
 }
 
-.front-concept{
-  padding:50px 0 80px 0;
-}
-
-
-.front-concept h1{
-  padding-bottom:20px;
-}
-
-.front-concept_texts p{
-  font-size:15px;
-  padding-top:5px;
-  text-align:center;
-  opacity:1;
-}
 
 .picture{
   float:left;
@@ -179,7 +184,7 @@ input,textarea{
 }
 
 .a-btn{
-  border:2px solid 
+  border:1px solid rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);;
   width:3px;
   border-radius:1.8rem;
   width:13rem;
@@ -187,6 +192,13 @@ input,textarea{
   opacity:0.5;
 }
 
+input,textarea:focus{
+  outline:0;
+}
+
+.a-btn:focus{
+  outline:0;
+}
 footer{
   height:570px;
   background-color:#fff0f5;
