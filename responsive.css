@@ -1,7 +1,8 @@
 @media(min-width:670px){
   header{
-    height:65px;
+    height:63px;
     width:100%;
+    opacity:0.9;
   }
 
   h2{
@@ -23,8 +24,11 @@
   }
 
   li{
+    margin-top:30px;
     display:inline-block;
     width:100px;
+    opacity:100;
+    
   }
 
   .front-work_units{
@@ -75,7 +79,7 @@ header{
 header h1{
   position:absolute;
   display:block;
-  top:80px;
+  top:70px;
   left:50px;
   font-size:80px;
 }
@@ -162,7 +166,7 @@ li{
   }
 
   .front-work{
-    margin-top:200px;
+    margin-top:130px;
   }
 
   .contact-form{
@@ -177,7 +181,7 @@ li{
     width:400px;
     height:220px;
   }
-
+  
   
   
   .a-btn{

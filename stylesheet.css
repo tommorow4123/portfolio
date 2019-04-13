@@ -14,7 +14,7 @@ header{
 }
 
 header h1{
-  opacity:0.85;
+  opacity:0.9;
   color:#1A1A1A;
   width:40%;
   display: inline-block;
@@ -80,6 +80,9 @@ h2{
   font-size:25px;
 }
 
+.front-profile h2{
+  padding-top:60px;
+}
 
 .cherry img{
   opacity:0.85;
@@ -200,7 +203,7 @@ input,textarea:focus{
   outline:0;
 }
 footer{
-  height:570px;
+  height:600px;
   background-color:#fff0f5;
   margin:0 auto;
 }
