@@ -14,15 +14,14 @@ header{
 }
 
 header h1{
-  /*opacity:0.9;*/
   position: fixed;
   top: 0;
   left: 0;
   color:#1A1A1A;
   width:40%;
   display: inline-block;
-  font-size:23px;
-  padding:18px 23px;
+  font-size:23px; 
+  padding:18px 10%;
   margin:0;
   z-index: 998;
 }
@@ -34,15 +33,11 @@ button{
   font-size:22px;
   cursor:pointer;
   float:right;
-  padding:18px 30px;  
+  padding:18px 8%;  
 }
 
 button:focus{
 outline:0;
-}
-
-nav {
-  margin-top: 62px;
 }
 
 a{
@@ -55,7 +50,6 @@ ul {
   background-color: #fff0f5;
   display:none;
   position:fixed;
-  /* top:61px; */
   width:100%;
   z-index: 998;
 }
@@ -64,7 +58,6 @@ li{
   margin:0 auto;
   list-style:none;
   font-size:14px;
-  /*opacity:0.6;*/
   text-align:left;
   padding:7px 0;
   display:block;
@@ -74,31 +67,25 @@ li{
 li:last-child{
   border:none;
 }
+
 .clear{
   clear:both;
 }
 
 h2{
- /* opacity:0.9;*/
   color:#1A1A1A;
   text-align:center;
   font-size:25px;
 }
 
-.front-profile h2{
-  padding-top:60px;
-}
-
-.cherry img{
-  opacity:0.85;
-  max-width:100%;
-  z-index: 996;
-}
-
 .front-profile{
-  height: 500px;
-  width:670px;
-  margin-top:50px;
+  margin-top:61px;
+}
+
+.front-profile h2{ 
+  padding-top:60px;
+  padding-bottom:45px;
+  margin:0 auto;
 }
 
 section h1{
@@ -112,9 +99,10 @@ section h1{
   padding-left:5%;
   
 }
+
 .name{
   float:left;
-  padding-left:43px;
+  padding-left:13%;
 }
 
 .name h2{
@@ -132,6 +120,7 @@ section h1{
 
 .name p{
   font-size:15px;
+  
 }
 
 .name p1{
@@ -146,7 +135,9 @@ section h1{
 .p-body p{
   font-size:16px;
   /*opacity:0.9;*/
-  margin:0 auto;
+  /* margin:0 auto; */
+  width:380px;
+  /* text-align:center; */
 }
 
 
