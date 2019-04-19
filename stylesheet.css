@@ -4,6 +4,10 @@
   font-family: 'Noto Sans Japanese';
 }
 
+body{
+  margin:0 auto;
+}
+
 header{
   position:fixed;
   background: #fff0f5;
@@ -84,7 +88,7 @@ h2{
 
 .front-profile h2{ 
   padding-top:60px;
-  padding-bottom:45px;
+  padding-bottom:28px;
   margin:0 auto;
 }
 
@@ -95,32 +99,22 @@ section h1{
 
 
 .picture{
-  float:left;
-  padding-left:5%;
-  
+  max-width: 80%;
+  text-align:center;
+  margin:0 auto;
 }
 
 .name{
-  float:left;
-  padding-left:13%;
+   padding-top:40px; 
+  text-align: center;
 }
 
-.name h2{
-  padding-bottom:5px;
-}
 .name h3{
   margin-bottom:5px;
 }
 
-
 .name li{
-  font-size:13px;
-  
-}
-
-.name p{
-  font-size:15px;
-  
+  font-size:13px; 
 }
 
 .name p1{
@@ -129,26 +123,21 @@ section h1{
 
 .sns{
   padding-top:12px;
-  
 }
+
+.p-body{  
+  padding-top:28px;
+} 
 
 .p-body p{
   font-size:16px;
-  /*opacity:0.9;*/
-  /* margin:0 auto; */
-  width:380px;
-  /* text-align:center; */
+  max-width:80%;
+  margin: 0 auto;
 }
 
-
-
-.p-body{
-  font-size:13px;
-  margin:5%;
-}
 
 .front-work{
-  padding-top:80px;
+  padding-top:50px;
 }
 
 
@@ -157,28 +146,37 @@ section h1{
   text-align:center;
   padding-bottom:50px;
   margin:0 auto;
+  width: 100%;
 }
 
-.web-site{
+.web-site{ 
   padding-bottom:13px;
 }
-
-
 
 .contact-form{
   text-align:center;
   padding-top:10px;
-  
+  margin: 0 auto;
+}
+
+.contact-form p{
+  margin: 0 auto;
+  text-align:center;
+  width:78%;
 }
 
 .clear{
   clear:both;
 }
 
+.c-items{
+padding-top: 28px;
+}
+
 input,textarea{
-  width:320px;
-  margin:10px 0 30px 0;
-  padding:20px;
+  width:80%;
+  margin:15px 0 23px 0;
+  padding:13px;
   
 }
 
@@ -199,7 +197,7 @@ input,textarea:focus{
   outline:0;
 }
 footer{
-  height:600px;
+  height:530px;
   background-color:#fff0f5;
   margin:0 auto;
 }

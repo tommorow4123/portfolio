@@ -13,19 +13,15 @@
   }
 
   ul{
-    width: 400px;
-    /* float:right; */
-    display: inline-block;
-    position:fixed;
-    top:0;
-    left:0;
+    width: 40%;
+    float:right; 
   }
 
   li{
     height:20px;
     margin-top:30px;
-    display:inline-block;
-    width:100px;
+    display:inline-block; 
+    width:30%;
     border-bottom:none;
   }
 
@@ -35,20 +31,50 @@
 
 
   .front-profile h2{
-    width:110px;
+    width:60%;
     margin:0 auto;
+    padding-top: 120px;
   }
 
-  .p-body p{
-    width:550px;
-    padding-right:100px;
+  .me{
+    float:left;
+    padding-left: 8%;
+  }
+
+  
+  .picture{  
+    margin:0 auto;
+    padding-top:30px;
+  }
+  
+  .clear{
+    clear:left;
+  }
+
+  .name{
+     padding-left:8%; 
+    padding-top:15px; 
+  }
+  
+  .sns{
+    font-size:26px;
+  }
+  
+  .clear{
+    clear:both;
+  }
+
+  .p-body{
+    padding-top:45px;
+    width:100%;
+    padding-left:35%;
   }
 
   .front-work_units{
     padding-bottom:80px;
     margin:0 15px;
   }
-
+  
   .front-work_units img{
     float:left;
     width:50%;
@@ -56,71 +82,52 @@
     padding:10px;
   }
 
-  .picture{
-    margin:0 auto;
-    padding-top:30px;
-    padding-left:80px;
+  .clear{
+    clear:both;
   }
 
-  .name{
-    padding-top:30px;
-  }
-
-  .sns{
-    font-size:26px;
-  }
-
-  .p-body{
-    padding:2% 5%;
-  }
 
   .contact-form{
     margin-top:80px;
+  }
+
+  .clear{
+    clear:both;
+  }
+
+  .c-items{
+    width:60%;
+    text-align: center;
+    margin:0 auto;
   }
 }
 
 @media(min-width:1000px){
   header{
-    box-sizing:border-box;
-    width:1440px;
-    height:0;
-    position:relative;
+    height:65px;
+    position:fixed;
   }
 
-  
   button{
     display:none;
   }
 
   nav{
     display:block;
-    height:100px;
   }
 
-  ul{
-    width:100%;
-  }
-
-  li{
-    display:block;
-    text-align: right;
-    margin: 0 auto;
-    height:50px;
-  }
-
-  
-  h2{
-　  font-size:26px;
-　  text-align:center;
-　}
-
-  .front-profile h2{
-    text-align:center;
+  .me{
+    float:left;
+    padding-left:1.5%;
   }
 
   .name{
+    padding-left:40%;
     font-size:21px;
-    padding-left:60px;
+  }
+
+  .front-profile h2{
+    text-align:center;
   }
 
   .sns{
@@ -130,10 +137,6 @@
   .picture{
     padding-left:200px;
     float: left;
-  }
-
-  .p-body{
-    margin:10px 100px;
   }
 
   .front-work{
@@ -152,20 +155,6 @@
     margin:0 auto;
   }
 
-  .front-concept{
-    margin-top:120px;
-    margin-bottom:150px;
-  }
-
-  .front-concept P{
-    padding-top:15px;
-    
-  }
-
-  .front-concept_texts br{
-    display:none;
-  }
-
   .front-profile h2{
     margin-bottom:60px;
   }
@@ -177,22 +166,9 @@
   .contact-form{
     margin-top:180px;
   }
-  textarea{
-    margin:0 auto;
-    
-  }
-
-  .front-contact-form img{
-    width:400px;
-    height:220px;
-  }
   
-  
-  
-  .a-btn{
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px; 
+  .c-items{
+    width:54%;
   }
 }
 
