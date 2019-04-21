@@ -76,10 +76,10 @@
   }
   
   .front-work_units img{
-    float:left;
-    width:50%;
+    /* float:left; */
+    width:45%;
     margin:0 auto;
-    padding:10px;
+    padding:10px 15px 10px 0;
   }
 
   .clear{
@@ -89,6 +89,7 @@
 
   .contact-form{
     margin-top:80px;
+    width:100%;
   }
 
   .clear{

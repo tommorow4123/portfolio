@@ -174,7 +174,7 @@ padding-top: 28px;
 }
 
 input,textarea{
-  width:80%;
+  width:60%;
   margin:15px 0 23px 0;
   padding:13px;
   
@@ -200,4 +200,5 @@ footer{
   height:530px;
   background-color:#fff0f5;
   margin:0 auto;
+  width:100%;
 }
